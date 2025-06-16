@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Himalaya INSTITUTE</title>
+  <link rel="stylesheet" href="chat.css"/>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+
+  <div class="header">
+    <div class="container">
+      <b>News:</b>
+      <marquee>
+        Admissions Open for B.Tech, M.Tech, MBA, B.Arch, Health Sciences, Law, Agriculture... My college: Intelligence plus curiosity—that is the root of true education.
+      </marquee>
+    </div>
+  </div>
+
+  <nav>
+    <div class="logo">
+      <img src="logo.jpg" alt="logo-img" />
+      <span><b>HIMALAYA INSTITUTE</b></span>
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#cour">Courses</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="i.html" >Login</a></li>
+      <li><a href="signup.html" >Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <div class="Video" id="home">
+    <video autoplay muted loop playsinline>
+      <source src="video.mp4" type="video/mp4"/>
+    </video>
+  </div>
+
+  <div class="ontext">
+    <span>Welcome To HIMALAYA INSTITUTE</span>
+  </div>
+
+  <div class="main-section flex-row">
+    <div class="event">
+      <h2 class="heading">Campus News</h2>
+      <marquee direction="up" scrollamount="6" style="height: 180px;">
+        <ul>
+          <li><strong>2-July-2025:</strong> Himalaya INSTITUTE open date.</li>
+          <li><strong>2-July-2025:</strong> Admissions for 2025–26 are now open.</li>
+          <li><strong>6-July-2025:</strong> New digital learning hub launching soon.</li>
+          <li><strong>10-July-2025:</strong> Semester exam results are out.</li>
+        </ul>
+      </marquee>
+    </div>
+
+    <div class="event">
+      <h2 class="heading">Events</h2>
+      <ul>
+        <li><span class="event-date">29<br>JUN :</span> SPARK25: Annual cultural & tech fest.</li>
+        <li><span class="event-date">10<br>Aug :</span> Orientation Day for the 2025 batch.</li>
+        <li><span class="event-date">15<br>Aug :</span> Independence Day celebration.</li>
+      </ul>
+    </div>
+
+    <div class="event">
+      <h2 class="heading">Notice Board</h2>
+      <ul>
+        <li><ion-icon name="folder-outline" style="color:red;"></ion-icon> Exam Result Release: Check roll numbers and marks. Contact Exam Cell for discrepancies.</li>
+        <li><ion-icon name="folder-outline" style="color:red;"></ion-icon> Mid-Sem Exams begin 5th Aug. Timetable to be posted.</li>
+        <li><ion-icon name="folder-outline" style="color:red;"></ion-icon> Hostel Allotment open from 25th July. Submit forms by 1st Aug.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="about-section" id="about">
+    <div class="container about-us">
+      <div class="about-text">
+        <h2 class="heading">About My HIMALAYA INSTITUTE</h2>
+        <h4>A Unique Heritage</h4>
+        <p>
+          Himalaya INSTITUTE is a top-ranking institution committed to strengthening Indian higher education by offering nurturing and quality programs across various disciplines.<br><br>
+          With a commitment to academic excellence, we guide students through career-focused counselling based on their educational background and interests to match them with suitable programs.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="about-us.jpg" alt="about us">
+      </div>
+    </div>
+  </div>
+
+  <div class="container1" id="cour">
+    <h2>Register For Free Demo Classes</h2>
+
+    <div class="form-card">
+      <form action="Thank.html" target="_self">
+        <div class="form-group">
+          <input type="text" name="fullname" placeholder="Enter Your Full Name" required>
+          <input type="email" name="email" placeholder="Enter Your Email" required>
+          <input type="tel" name="phone" placeholder="Enter Your Phone Number" pattern="[0-9]{10}" maxlength="10" required>
+          <div class="select-wrapper">
+            <label for="subject">Choose your Subject:</label>
+            <select name="subject" id="subject" required>
+              <option value="">--Select--</option>
+              <option value="java">Java</option>
+              <option value="python">Python</option>
+              <option value="c++">C++</option>
+              <option value="html-css">HTML & CSS</option>
+              <option value="aiml">AIML</option>
+              <option value="data-science">Data Science</option>
+            </select>
+          </div>
+          <button type="submit">Register Now</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="courses">
+      <span><img src="img-1.jpg" alt="java"> JAVA <br> ₹3999</span>
+      <span><img src="img-2.jpg" alt="python"> PYTHON <br> ₹4999</span>
+      <span><img src="img-3.png" alt="frontend"> FRONT-END <br> ₹5999/Month</span>
+      <span><img src="img-4.jpg" alt="data-science">DATA SCIENCE<br>₹10000/Month</span>
+      <span><img src="img-5.webp" alt="img">AI-ML <br>₹20000/Month</span>
+    </div>
+  </div>
+
+</body>
+</html>
